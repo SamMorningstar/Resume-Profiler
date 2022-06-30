@@ -23,8 +23,10 @@ class RProfiler {
         JPanel keyPanel = new JPanel();
         JLabel keyLabel = new JLabel("Enter the Keywords you want to scan(Seperated by commas(,))");
         JTextField keyTxt = new JTextField(40);
+        JButton keyBtn = new JButton("Enter");
         keyPanel.add(keyLabel);
         keyPanel.add(keyTxt);
+        keyPanel.add(keyBtn);
 
         JPanel resPanel = new JPanel();
         JLabel resLabel = new JLabel("Are the Keywords found?");
