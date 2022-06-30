@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch RProfiler",
+            "request": "launch",
+            "mainClass": "RProfiler",
+            "projectName": "Resume-Profiler_db391e6d"
+        },
+        {
+            "type": "java",
             "name": "Launch Current File",
             "request": "launch",
             "mainClass": "${file}"
